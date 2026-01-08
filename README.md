@@ -10,7 +10,7 @@ The goal is to analyze how different optimizers behave on a simple but challengi
 
 We optimize the following 2D quadratic function:
 
-$ f(x, y) = a·x² + b·y² $
+ f(x, y) = a·x² + b·y² 
 
 
 with parameters:
@@ -21,7 +21,7 @@ This creates an **elongated valley (canyon-shaped loss surface)**, which is know
 
 The global minimum is at:
 
-$ (x*, y*) = (0, 0) $
+ (x*, y*) = (0, 0) 
 
 
 ---
@@ -111,3 +111,4 @@ This experiment demonstrates why adaptive and momentum-based optimizers are wide
 pip install numpy matplotlib
 python main.py
 ```
+
